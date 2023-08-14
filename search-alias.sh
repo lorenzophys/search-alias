@@ -1,6 +1,4 @@
-# Put it in you ~/.zshrc
-
-# Search aliases
+# Search aliases: https://github.com/lorenzophys/search-alias/tree/main
 fzf-search-alias() {
     # Get aliases, remove the alias prefix, feed into fzf, return only the alias string
     selected=$(alias | sed 's/alias //' | fzf | awk -F'=' '{print $1}')
@@ -14,3 +12,4 @@ fzf-search-alias() {
 # Bind the function to Ctrl+z
 zle -N fzf-search-alias
 bindkey "^z" fzf-search-alias
+# End of search aliases
