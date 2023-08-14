@@ -41,7 +41,6 @@ do_install() {
 
     {
         echo 
-        echo 
         curl -fsSL "$GITHUB_URL"
     } >> ~/.zshrc
 
