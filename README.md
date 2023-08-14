@@ -10,12 +10,12 @@ How many times you created a shell alias for a command that is hard to remember,
 ## Installation
 
 1. Ensure you have `fzf` installed. You can usually install it via your package manager, e.g., `brew install fzf` if you're on macOS.
-2. Use the convenient installation script: `curl -fsSL https://raw.githubusercontent.com/lorenzophys/search-alias/main/install.sh | sh`
+2. Use the convenient installation script: `curl -fsSL https://raw.githubusercontent.com/lorenzophys/search-alias/main/install.sh | bash`
 3. The default key binding for invoking the alias searcher is `Ctrl-z`. If this clashes with another key binding, or if you'd simply prefer a different key, you're free to modify it to your liking within the script.
 
 ## Trust
 
-Before piping a script from the internet to `sh`, it's good practice to check what you are about to execute. You can make sure nothing suspicious is going on in `install.sh` before running the install command. If in doubt, please open an issue.
+Before piping a script from the internet to `bash`, it's good practice to check what you are about to execute. You can make sure nothing suspicious is going on in `install.sh` before running the install command. If in doubt, please open an issue.
 
 ## Contribute
 
